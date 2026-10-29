@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ab-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative container -->
+  <rect width="800" height="600" rx="28" fill="#f1f5f9" />
+  <circle cx="700" cy="100" r="160" fill="#dbeafe" opacity="0.6" />
+  <circle cx="100" cy="500" r="140" fill="#e0e7ff" opacity="0.6" />
+
+  <!-- Code Editor Window Mockup -->
+  <g transform="translate(60, 60)">
+    <rect width="680" height="480" rx="20" fill="#0f172a" stroke="#334155" stroke-width="2" />
+    
+    <!-- Title bar -->
+    <rect width="680" height="44" rx="20" fill="#1e293b" />
+    <rect y="32" width="680" height="12" fill="#1e293b" />
+    <circle cx="28" cy="22" r="6" fill="#ef4444" />
+    <circle cx="48" cy="22" r="6" fill="#f59e0b" />
+    <circle cx="68" cy="22" r="6" fill="#10b981" />
+    <text x="340" y="27" fill="#94a3b8" font-size="13" font-family="monospace" text-anchor="middle">MomRothaService.java</text>
+
+    <!-- Code Lines -->
+    <g transform="translate(30, 80)" font-family="monospace" font-size="14">
+      <text y="0" fill="#818cf8">@Service</text>
+      <text y="24" fill="#38bdf8">public class <tspan fill="#facc15">DeveloperService</tspan> <tspan fill="#94a3b8">{</tspan></text>
+      
+      <text x="24" y="60" fill="#64748b">// Passion for building modern scalable systems</text>
+      <text x="24" y="84" fill="#f43f5e">private final <tspan fill="#38bdf8">University</tspan> <tspan fill="#e2e8f0">cambodia</tspan> = <tspan fill="#a78bfa">new</tspan> <tspan fill="#facc15">UniversityOfCambodia()</tspan>;</text>
+      <text x="24" y="108" fill="#f43f5e">private final <tspan fill="#38bdf8">Focus</tspan> <tspan fill="#e2e8f0">specialty</tspan> = <tspan fill="#34d399">"Java, Spring Microservices &amp; Next.js"</tspan>;</text>
+
+      <text x="24" y="150" fill="#818cf8">@EventListener</text>
+      <text x="24" y="174" fill="#38bdf8">public void <tspan fill="#60a5fa">onVolunteerMentorship</tspan><tspan fill="#94a3b8">() {</tspan></text>
+      <text x="48" y="200" fill="#e2e8f0">mentorshipService.<tspan fill="#facc15">teachSistersOfCode</tspan>(</text>
+      <text x="72" y="224" fill="#34d399">"HTML5, CSS3, Algorithmic Thinking"</text>
+      <text x="48" y="248" fill="#e2e8f0">);</text>
+      <text x="24" y="272" fill="#94a3b8">}</text>
+
+      <text x="24" y="310" fill="#38bdf8">public <tspan fill="#facc15">CleanArchitecture</tspan> <tspan fill="#60a5fa">engineerReliableApp</tspan><tspan fill="#94a3b8">() {</tspan></text>
+      <text x="48" y="334" fill="#f43f5e">return <tspan fill="#a78bfa">new</tspan> <tspan fill="#facc15">ScalableMicroservice</tspan>(<tspan fill="#34d399">"High Performance"</tspan>);</text>
+      <text x="24" y="358" fill="#94a3b8">}</text>
+      
+      <text y="390" fill="#94a3b8">}</text>
+    </g>
+
+    <!-- Floating Badge 1: Spring Boot -->
+    <g transform="translate(420, 260)">
+      <rect width="210" height="60" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+      <circle cx="32" cy="30" r="16" fill="#10b981" />
+      <text x="32" y="36" fill="#ffffff" font-size="16" font-weight="bold" font-family="sans-serif" text-anchor="middle">🍃</text>
+      <text x="60" y="26" fill="#ffffff" font-size="13" font-weight="bold" font-family="sans-serif">Spring Microservice</text>
+      <text x="60" y="44" fill="#34d399" font-size="11" font-family="sans-serif">Event-Driven Kafka</text>
+    </g>
+
+    <!-- Floating Badge 2: Next.js & TypeScript -->
+    <g transform="translate(440, 340)">
+      <rect width="190" height="60" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+      <circle cx="32" cy="30" r="16" fill="#3b82f6" />
+      <text x="32" y="36" fill="#ffffff" font-size="14" font-weight="bold" font-family="sans-serif" text-anchor="middle">TS</text>
+      <text x="60" y="26" fill="#ffffff" font-size="13" font-weight="bold" font-family="sans-serif">Next.js &amp; React</text>
+      <text x="60" y="44" fill="#60a5fa" font-size="11" font-family="sans-serif">Modern Interactive UI</text>
+    </g>
+  </g>
+</svg>
